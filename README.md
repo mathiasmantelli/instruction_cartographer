@@ -18,14 +18,14 @@ catkin_make
 cd src
 git clone https://github.com/jackal/jackal_cartographer_navigation.git
 ```
-Now you should have everything you need to run the Cartographer with Jackal. You could try if everything works out by doing:
-Terminal 1: roscore
-Terminal 2: roslaunch jackal_gazebo jackal_world.launch
-Terminal 3: roslaunch jackal_viz view_robot.launch
-Terminal 4: roslaunch jackal_cartographer_navigation cartographer_demo.launch 
-
-The first two roslaunch commands will execute the files you've installed at the beginning, whereas the last one relies on the files you've cloned. If you've managed to successfully launch all these ROS nodes, I recommend you to copy the launch file that is here within this repository, to make your life easier. It launches at once all the ROS nodes that are launched by the aforementioned launch files.
-
-I also recommend you to check out the following pages: 
-The [list of Jackal](https://github.com/jackal) repositories on GitHub. Here you can find all the packages you've install at the beginning;
+Now you should have everything you need to run the Cartographer with Jackal. You could try if everything works out by doing:<br />
+Terminal 1: roscore<br />
+Terminal 2: roslaunch jackal_gazebo jackal_world.launch<br />
+Terminal 3: roslaunch jackal_viz view_robot.launch<br />
+Terminal 4: roslaunch jackal_cartographer_navigation cartographer_demo.launch<br />
+<br />
+The first two roslaunch commands will execute the files you've installed at the beginning, whereas the last one relies on the files you've cloned. If you've managed to successfully launch all these ROS nodes, I recommend you to copy the launch file that is here within this repository, to make your life easier. It launches at once all the ROS nodes that are launched by the aforementioned launch files.<br />
+<br />
+I also recommend you to check out the following pages: <br />
+The [list of Jackal](https://github.com/jackal) repositories on GitHub. Here you can find all the packages you've install at the beginning;<br />
 The [Jackal tutorial](http://www.clearpathrobotics.com/assets/guides/kinetic/jackal/simulation.html) provided by ClearPath. Here you can find some step-by-step tutorials to make Jackal environment works in your computer.  
